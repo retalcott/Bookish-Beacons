@@ -1,0 +1,192 @@
+	<!DOCTYPE html>
+	<html lang="en">
+	<head>
+		<meta charset="UTF-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+		<link rel="stylesheet" href="style.css">
+		<script type="text/javascript" src="app.js" async></script>
+		<title>Bookish Beacons</title>
+	</head>
+	<body>
+		<div class="wrapper">
+			<nav class="nav">
+				<div class="nav-logo">
+					<a href="#" class="hamburger-menu"><i class='bx bx-menu'></i></a>
+					<p>Bookish Beacons</p>
+				</div>
+				<div class="nav-menu">
+					<ul>
+						<li><a href="#" class="link home-button">Home</a></li>
+						<li><a href="#" class="link services-button">Services</a></li>
+						<li><a href="#" class="link about-button">About</a></li>
+						<li><a href="#" class="link contact-us-button">Contact Us</a></li>
+						<li><a href="#" class="link book-series-button">Book Series</a></li>
+					</ul>
+				</div>
+				<div class="nav-button">
+					<button class="btn white-btn" id="loginBtn">Sign In</button>
+					<button class="btn" id="registerBtn">Sign Up</button>
+				</div>
+				<div class="nav-menu-btn">
+					<i class="bx bx-menu"></i>
+				</div>
+			</nav>
+			<div class="content">
+				<!-- FORM BOX -->
+				<div class="form-box" id="form-box">
+					<!-- REGISTRATION -->
+					<div class="register-container" id="register">
+						<form action="/submit-form" method="post">
+							<div class="top">
+								<span id="account-span"><span id="account-span-1">Have An Account?</span> <a href="#" id="account-span-2"></a></span>
+								<header class="sign-up-header" id="sign-up-header">Sign Up</header>
+							</div>
+							<div class="two-forms" style="flex-direction: column; display: flex;">
+								<div class="input-box" id="names">
+									<i class="bx bx-user"></i>
+									<input type="text" class="input-field" id="first-name" placeholder="First Name" autocomplete="given-name" required/>
+									<i class="bx bx-user"></i>
+									<input type="text" class="input-field" id="last-name" placeholder="Last Name" autocomplete="given-name" required/>
+								</div>
+								<div class="input-box">
+									<i class="bx bxs-envelope"></i>
+									<input type="email" class="input-field" id="email" placeholder="Email" autocomplete="given-email" required/>
+								</div>
+								<div class="input-box">
+									<i class="bx bx-lock-alt"></i>
+									<input type="password" class="input-field" id="password" placeholder="Password" autocomplete="given-password" required/>
+								</div>
+								<div class="input-box">
+									<input type="submit" class="submit" value="Register"/>
+								</div>
+								<div class="two-col" style="flex-direction: column;">
+									<div class="one">
+										<input type="checkbox" id="register-check"/>
+										<label for="register-check" class="remember-me-label"></label>
+										<span class="remember-me-span">Remember Me</span>
+									</div>
+									<div class="two">
+										<label><a href="#" class="terms">Terms & Conditions</a></label>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</form>
+				<!-- Body After Hidden Form Box -->
+				<div class="home">
+					<h2 class="topic">New Book Reviews:</h2>
+					<div class="new-book-reviews">
+						<div class="new-book-1 new-book-container book" data-author="Charlotte Bronte" data-title="Jane Eyre" data-image_path="JaneEyre.png">
+							<img src="JaneEyre.png" class="new-book">
+							<button class="btn-review jane-eyre-review-button">Read Review</button>
+						</div>
+						<div class="new-book-2 new-book-container">
+							<img src="WutheringHeights.png" class="new-book">
+							<button class="btn-review wuthering-heights-review-button">Read Review</button>
+						</div>
+						<div class="new-book-3 new-book-container">
+							<img src="ThePostcard.png" class="new-book">
+							<button class="btn-review the-postcard-review-button">Read Review</button>
+						</div>
+						<!--Second Row Of Books-->
+						<div class="new-book-4 new-book-container">
+							<img src="Ghost.png" class="new-book">
+							<button class="btn-review jane-eyre-review-button">Read Review</button>
+						</div>
+						<div class="new-book-5 new-book-container">
+							<img src="96Miles.png" class="new-book">
+							<button class="btn-review middle">Read Review</button>
+						</div>
+						<div class="new-book-6 new-book-container">
+							<img src="ToKillAMockingbird.png" class="new-book">
+							<button class="btn-review">Read Review</button>
+						</div>
+					</div>
+					<center>
+						<button class="btn-all all-books-button">All Books</button>
+					</center>
+				</div>
+				<div class="services">
+					<h2 class="topic">Services:</h2>
+				</div>
+				<div class="about">
+					<h2 class="topic">About</h2>
+				</div>
+				<div class="contact-us">
+					<h2 class="topic">Contact Us:</h2>
+				</div>
+				<div class="review-jane-eyre reviews">
+					<h2 class="topic">Jane Eyre By Charlotte Bronte Review:</h2>
+					<center>
+						<p class="review-essay">
+							Charlotte Bronte's seminal work, "Jane Eyre," is a tour de force of Victorian literature, weaving a tapestry of emotional intensity, social critique, and profound introspection. Published in 1847 under the pseudonym "Currer Bell," the novel stands as a testament to Bronte's narrative prowess and her ability to navigate the complexities of human experience with unparalleled finesse.<br><br>
+							At its core, "Jane Eyre" is a Bildungsroman—a coming-of-age story—that follows the eponymous protagonist through various stages of her life, from her oppressive upbringing at Gateshead Hall to her transformative experiences at Lowood School and Thornfield Hall. Jane's journey is not merely a physical one but a psychological odyssey marked by moments of defiance and quiet resilience. Bronte imbues Jane with a fierce independence and unwavering moral compass, making her a symbol of feminist rebellion against the rigid social norms of her time.<br><br>
+							Bronte's prose is richly evocative, painting scenes with vivid strokes that transport the reader into the moody landscapes of the Yorkshire moors or the dimly lit corridors of Thornfield. Her language is infused with Gothic undertones, creating an atmosphere that oscillates between the eerie and the sublime. Metaphors abound, each one a carefully crafted gem that illuminates the inner workings of the characters' minds and hearts. For instance, Thornfield Hall itself becomes a metaphor for the hidden passions and secrets lurking within its walls, mirroring the tumultuous emotions of its inhabitants.<br><br>
+							Central to the novel is the enigmatic figure of Mr. Rochester, whose brooding presence casts a magnetic allure over Jane. Their relationship is fraught with tension and ambiguity, yet it serves as a crucible for Jane's growth and self-discovery. Through Rochester, Bronte explores themes of love, sacrifice, and the complexities of human desire. His eventual fall from grace and redemption underscores the novel's exploration of morality and the consequences of one's actions.<br><br>
+							Beyond its narrative brilliance, "Jane Eyre" is a poignant critique of Victorian society's treatment of women and the disadvantaged. Bronte uses Jane's experiences to expose the injustices of class and gender inequality, challenging readers to confront their own prejudices and assumptions. Jane's insistence on asserting her own identity in a world determined to subdue her is a powerful indictment of the era's restrictive social norms.<br><br>
+						In conclusion, "Jane Eyre" remains a timeless masterpiece that continues to captivate and provoke readers with its incisive commentary on human nature and society. Bronte's ability to blend romance with social critique, Gothic atmosphere with psychological depth, ensures that the novel retains its relevance and resonance even in the modern era. Through Jane's unwavering determination and moral integrity, Bronte crafts a protagonist who transcends the confines of her time and emerges as a symbol of resilience and hope. "Jane Eyre" stands not only as a literary triumph but as a beacon of empowerment, reminding us of the enduring power of the human spirit in the face of adversity.</p>
+					</center>
+				</div>
+				<div class="review-wuthering-heights reviews">
+					<h2 class="topic">Wuthering Heights By Emily Bronte Review:</h2>
+				</div>
+				<div class="review-the-postcard reviews">
+					<h2 class="topic">The Postcard By Anne Berest Review:</h2>
+				</div>
+				<div class="all-books">
+				</div>
+				<div class="series-book-page">
+				<h2 class="topic">All Series:</h2>
+			</div>
+				<div class="all-books-page reviews">
+					<h2 class="topic">All Book Reviews:</h2>
+				</div>
+			</div>
+			<div class="HMenu-Container">
+				<div class="HMenu-Top">
+					<a class="hamburgerMenuButton" href="#"><i class='bx bx-menu-alt-left'></i></a>
+					<h2 class="hmenu-top-header">General:</h2>
+				</div>
+				<div class="hmenu-content">
+					<div class="search-bar">
+						<search>
+							<form action="./search/">
+								<label for="movie">Search For Book Or Author</label>
+								<input type="search" id="movie" name="q" />
+								<button type="submit" class="button-search">Search</button>
+							</form>
+						</search>
+					</div>
+					<li class="HMenuStuff"><a href="#" class="HMenu-link">Important Words</a></li>
+					<li class="HMenuStuff"><a href="#" class="HMenu-link">Important Words</a></li>
+					<li class="HMenuStuff"><a href="#" class="HMenu-link">Important Words</a></li>
+					<li class="HMenuStuff"><a href="#" class="HMenu-link">Important Words</a></li>
+					<li class="HMenuStuff"><a href="#" class="HMenu-link">Important Words</a></li>
+					<li class="HMenuStuff"><a href="#" class="HMenu-link">Important Words</a></li>
+					<li class="HMenuStuff"><a href="#" class="HMenu-link">Important Words</a></li>
+					<li class="HMenuStuff"><a href="#" class="HMenu-link">Important Words</a></li>
+					<li class="HMenuStuff"><a href="#" class="HMenu-link">Important Words</a></li>
+					<li class="HMenuStuff"><a href="#" class="HMenu-link">Important Words</a></li>
+					<li class="HMenuStuff"><a href="#" class="HMenu-link">Important Words</a></li>
+					<li class="HMenuStuff"><a href="#" class="HMenu-link">Important Words</a></li>
+					<li class="HMenuStuff"><a href="#" class="HMenu-link">Important Words</a></li>
+					<li class="HMenuStuff"><a href="#" class="HMenu-link">Important Words</a></li>
+					<li class="HMenuStuff"><a href="#" class="HMenu-link">Important Words</a></li>
+					<li class="HMenuStuff"><a href="#" class="HMenu-link">Important Words</a></li>
+					<li class="HMenuStuff"><a href="#" class="HMenu-link">Important Words</a></li>
+					<li class="HMenuStuff"><a href="#" class="HMenu-link">Important Words</a></li>
+					<li class="HMenuStuff"><a href="#" class="HMenu-link">Important Words</a></li>
+					<li class="HMenuStuff"><a href="#" class="HMenu-link">Important Words</a></li>
+					<li class="HMenuStuff"><a href="#" class="HMenu-link">Important Words</a></li>
+					<li class="HMenuStuff"><a href="#" class="HMenu-link">Important Words</a></li>
+				</div>
+			</div>
+			<div class="filter-view">
+				
+			</div>
+		</div>
+	</body>
+	</html>
